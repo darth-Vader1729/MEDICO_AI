@@ -4,8 +4,8 @@
 This project implements an AI-driven solution for the segmentation of liver images in medical imaging. It leverages PyTorch and MONAI to automate the preprocessing, segmentation, and evaluation of liver images. The aim is to enhance diagnostic efficiency and accuracy by reducing the reliance on manual segmentation.
 
 ## Features
-- **Data Preparation:** Conversion of NIfTI files to DICOM, slice grouping, and image preprocessing (cropping, contrast adjustments).
-- **File Management:** Automated directory creation, file organization, and removal of non-informative subfolders.
+- **Data Preparation:** Conversion of NIfTI files to DICOM, slice grouping, and image preprocessing
+- **File Management:** Automated directory creation, and file organization
 - **Model Training:** Utilizes a segmentation model optimized with the Dice coefficient loss function and weighted cross-entropy to handle class imbalances.
 - **Evaluation:** Tools for assessing model performance and segmentation accuracy.
 
@@ -18,8 +18,8 @@ This project implements an AI-driven solution for the segmentation of liver imag
 ## Installation
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/liver-segmentation.git
-   cd liver-segmentation
+   git clone https://github.com/darth-Vader1729/MEDICO_AI.git
+   cd MEDICO_AI
 
 
 2. **Create and activate a virtual environment:**
@@ -48,9 +48,7 @@ Evaluate model performance using the Dice coefficient:
 
 
 Directory Structure
-bash
-Copy
-Edit
+```bash
 MEDICO_AI/
 ├── TestingDATA/         # Raw and preprocessed data
 ├── models/              # Saved models and checkpoints

@@ -1,0 +1,8 @@
+Under this Task03_liver directory :
+1) download and unzip the training data, testing data and labels for data processing
+2) create a folder named dicom_files which contains 2 more folder: images and labels.
+3) Run the extract_archives.py first for the training data(which'll be stored
+    in  a directory named imagesTr) output in dicom_files/images
+    and then for labels(in labelsTr) output in dicom_files/labels
+This step ensures that the .nii(nifti files) have been converted into the corresponding 
+number of .dcom(dicom series) = slices of that MRI scan

@@ -53,6 +53,5 @@ MEDICO_AI/
 ├── TestingDATA/         # Raw and preprocessed data
 ├── models/              # Saved models and checkpoints
 ├── Medico_AI.py         # spins the website into existence
-├── notebooks/           # Jupyter notebooks for experimentation and analysis
 ├── README.md
 └── requirements.txt

@@ -14,9 +14,7 @@ This project implements an AI-driven solution for the segmentation of liver imag
 - PyTorch
 - MONAI
 - Additional Python libraries: `numpy`, `pandas`, `os`, `shutil`, `streamlit`, `sqlite3`, `bcrypt`, `time`, `PIL from Image`
-- download the nifti files from :
-```bash
-   https://drive.google.com/drive/folders/1HqEgzS8BV2c7xYNrZdEAnrHk7osJJ--2
+- download the nifti files from : https://drive.google.com/drive/folders/1HqEgzS8BV2c7xYNrZdEAnrHk7osJJ--2
 
 ## Installation
 1. **Clone the repository:**
